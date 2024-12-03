@@ -2,6 +2,7 @@ package net.jalepenonoodle.tutorialmod;
 
 import com.mojang.logging.LogUtils;
 
+import net.jalepenonoodle.tutorialmod.block.ModBlocks;
 import net.jalepenonoodle.tutorialmod.item.ModCreativeModTabs;
 import net.jalepenonoodle.tutorialmod.item.ModItems;
 import net.minecraft.client.Minecraft;
@@ -47,6 +48,7 @@ public class TutorialMod
         ModCreativeModTabs.register(modEventBus);
         
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);        
