@@ -6,6 +6,8 @@
             "item": "tutorialmod:sapphire_block"
         }
     ],
-    "result": "tutorialmod:sapphire",
-    "count": 9
+    "result": {
+        "item": "tutorialmod:sapphire",
+        "count": 9
+    }
 }
